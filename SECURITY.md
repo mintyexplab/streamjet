@@ -8,21 +8,21 @@ The versions of StreamJet (Desktop, Web, and Mobile) that have a checkmark are c
 ## Desktop builds
 | Version | Supported          |
 | ------- | ------------------ |
-| Desktop 1.3.x  | :white_check_mark: |
-| Desktop 1.2.x  | :white_check_mark: |
-| Desktop 1.1.x   | :x:                |
-| Desktop PRE 1.0.x   | :x:                |
+|  1.3.x  | :white_check_mark: |
+|  1.2.x  | :white_check_mark: |
+|  1.1.x   | :x:                |
+|  PRE 1.0.x   | :x:                |
 
 ## Mobile builds
 | Version | Supported          |
 | ------- | ------------------ |
-| Mobile 1.0  | :white_check_mark: |
+|  1.0  | :white_check_mark: |
 
 
 ## Web platform
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.1.8 (Web)   | :white_check_mark: |
+| 1.1.8   | :white_check_mark: |
 
 
 ## Reporting a Vulnerability
