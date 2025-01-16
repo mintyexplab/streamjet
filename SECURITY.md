@@ -6,6 +6,7 @@ The versions of StreamJet (Desktop, Web, and Mobile) that have a checkmark are c
 
 | Version | Supported          |
 | ------- | ------------------ |
+| Desktop 1.3.x  | :white_check_mark: |
 | Desktop 1.2.x  | :white_check_mark: |
 | Mobile 1.0  | :white_check_mark: |
 | 1.1.8 (Web)   | :white_check_mark: |
