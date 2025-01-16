@@ -1,66 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+        }
+        video {
+            object-fit: cover;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .viewport-header {
+            position: relative;
+            height: 100vh;
+            text-align: left;
+
+
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>StreamJet - Home</title>
+    <title>StreamJet Mobile Platform</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <style>
-  body {
-    font-family: Tahoma, sans-serif;
-  }
-  </style>
-  <body style="background-color: black;"> 
-    
-    <main> 
-     
-      <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active">Home</a>
-        <a href="downloads.html">Download</a>
-        <a href="webplayer.html">Web Player</a>
-        <div class="dropdown">
-          <button class="dropbtn">Support
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="faq.html">FAQ</a>
-            <a href="livechat.html">Live Chat</a>
-            <a href="contact.html">Contact</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">About
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="about.html">About StreamJet</a>
-            <a href="visions.html">Visions</a>
-            <a href="donate.html">Donate</a>
-          </div>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="topnav1()">&#9776;</a>
-      </div>
-    </main>
-    <h1 style="color:white;">Welcome to StreamJet!</h1>
-    <p style="color:white;">StreamJet is an easy to use and simple radio streaming service which works on the web, PC, and mobile platforms. StreamJet has 5+ radio stations and more are added often. Whether you're using the desktop app, the web player, or the mobile app, new stations will be synced over between the two simultaneously for easy access and convenience. </p>
-    
-    
-    
-   
-    <script src="index.js"></script>
-    
+</head>
+
+
+<body style="background-color: black;">
+<video autoplay muted loop id="myVideo">
+    <source src="video.mp4" type="video/mp4">
+</video>
+<header class="viewport-header">
+    <p style="color:white">StreamJet Mobile Platform ver. 1.0</p>
+
+
 
     <script src="https://static.elfsight.com/platform/platform.js" async></script>
-    <script src="https://static.elfsight.com/platform/platform.js" async></script>
-    <div class="elfsight-app-614f0c8e-b0e1-4459-acbd-4faf746ec96a" data-elfsight-app-lazy></div>
+    <div class="elfsight-app-2f27a0bb-5ccf-49f1-8ff1-160f534f9dfb" data-elfsight-app-lazy></div>
 
-    
 
-    <footer>
-      <p style="color:white">(C) 2025 StreamJet Radio Operations, controlled by minty's experiment lab, All rights reserved.</p>   
-         </footer>
-  </body>
+    <p style="color:white">(C) 2024 StreamJet Radio Operations. All rights reserved</p>
+
+</header>
+
+
+
+
+
+
+
+
+
+</body>
 </html>
